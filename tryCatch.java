@@ -1,6 +1,4 @@
-class a {
 
-}
 public class tryCatch {
     public static void main(String[] args) {
   /*      try{    

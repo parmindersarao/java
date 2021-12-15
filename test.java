@@ -1,4 +1,4 @@
-class exam{
+/*class exam{
     void display(){
         System.out.println("in exam");
     }
@@ -10,13 +10,23 @@ class exam{
     }
     
 
-}
+}*/
 
 
 class test {
+    static int a;
+    static void get(int x){
+        a=x;
+    }
     public static void main(String[] args) {
-        exam obj2 = new exam();
-        exam.exam1 obj1 = obj2.new exam1();
-        obj1.dis();
+        //test obj1 = new test();
+       // obj1.get(5);
+        //obj1.show();
+        get(5);
+        show();
+
+    }
+    static void show(){
+        System.out.println(a);
     }
 }
