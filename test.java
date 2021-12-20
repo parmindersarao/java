@@ -38,7 +38,6 @@ class Child extends Parent {
     }
     @Override
     void Print(){
-        super.Print();
         System.out.println("Child's Print()"+a);
     }
 }
@@ -57,8 +56,7 @@ class test {
         System.out.println(a);
     }*/
     public static void main(String[] args) {
-        Parent P = new Parent(8);
-        Child C = new Child(10);
+        Child C = new Parent(10);
        /* C.Print(); // calling function through child class object it print 10 
         C.show(); // same but it is child class function
         P.Print(); // callin function by parent class which print 8 because we pass value 8
